@@ -17,9 +17,9 @@ generateBtn.addEventListener("click", writePassword);
 function getPrompts(){
 
     choiceArr = [];    
-    characterLength = parseInt(prompt("How many characters in your new password? (8-100)"));
+    characterLength = parseInt(prompt("How many characters in your new password? (8-128)"));
     
-    if (isNaN(characterLength) || characterLength < 8 || characterLength > 100) {
+    if (isNaN(characterLength) || characterLength < 8 || characterLength > 128) {
         alert("length between 8 - 100");
         return false;
     
@@ -78,15 +78,12 @@ var password = "";
         numbersExist = false
     }
 
-    if (specialExist){
+    // if (specialExist){
 
-        password = password.replace(password[1], Math.floor(Math.random() *special.length))
-         numbersExist = false
-     }
-
-    
-    
-            return password;
+    //     password = password.replace(password[1], Math.floor(Math.random() * special.length))
+    //      numbersExist = false
+    //  }
+    //         return password;
 }
 
 
