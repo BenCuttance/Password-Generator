@@ -20,7 +20,7 @@ function getPrompts(){
     characterLength = parseInt(prompt("How many characters in your new password? (8-128)"));
     
     if (isNaN(characterLength) || characterLength < 8 || characterLength > 128) {
-        alert("length between 8 - 100");
+        alert("length between 8 - 128");
         return false;
     
         }
@@ -83,7 +83,7 @@ var password = "";
     //     password = password.replace(password[1], Math.floor(Math.random() * special.length))
     //      numbersExist = false
     //  }
-    //         return password;
+            return password;
 }
 
 
