@@ -43,3 +43,7 @@ This project allows user to create a unique password with 8 - 128 characters fro
 
 ![prompts](https://user-images.githubusercontent.com/123234427/229449797-7f081e0b-e95e-45d3-b9ff-0f27b50767c7.PNG)
 
+## Link to working code
+
+ https://bencuttance.github.io/Password-Generator/
+
