@@ -83,7 +83,7 @@ var password = "";
     //     password = password.replace(password[1], Math.floor(Math.random() * special.length))
     //      numbersExist = false
     //  }
-    //         return password;
+            return password;
 }
 
 
